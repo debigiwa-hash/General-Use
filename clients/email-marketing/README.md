@@ -2,7 +2,7 @@
 
 Client folders for email marketing lifecycle work. Each client folder contains:
 
-- `lifecycle-process/` — lifecycle strategy docs, flow maps, email sequences
+- `copy/` — copywriting for email lifecycle/campaigns
 - `design/` — email/template designs, brand assets, mockups
 - `reporting/` — performance reports, campaign results, analytics
 

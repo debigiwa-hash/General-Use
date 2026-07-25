@@ -1,5 +1,5 @@
 # Debthelper — Email Marketing
 
-- [lifecycle-process/](./lifecycle-process) — lifecycle strategy, flow maps, sequences
+- [copy/](./copy) — copywriting for email lifecycle/campaigns
 - [design/](./design) — email/template designs, assets, mockups
 - [reporting/](./reporting) — performance reports, campaign results
