@@ -183,4 +183,13 @@ Lessons from 2019–2025 sends, turned into rules. The full plan is in `../copy/
 
 **Franchise version:** same issue. Swap one tip, the proof and, if needed, the subject to speak to multi-location owners ("every location", "the whole brand").
 
+**Links:** every link goes to a page that already exists on yourdigitalresource.com. Never write a CTA for an offer DR doesn't run (no invented "free checks"). Match the CTA to the page:
+- the free 24-hour Internet Marketing Analysis (`/internet-marketing-analysis`)
+- the free consultation (`/contact-us`)
+- a service page ("See How…")
+- a case study ("Read [Client]'s Story")
+- a blog post ("Read…")
+
+The body can link once to a DR blog post on the same topic, so the reader lands on the full version of what the email started.
+
 **Stats in newsletters:** prefer DR client numbers (approved, dated) over industry stats. If you use an industry stat, source and date it in the copy doc.

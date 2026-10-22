@@ -88,12 +88,14 @@ Not linked this month, so the vote stays the only primary click.
 
 **`[poll_1]`–`[poll_4]` BTN** (blue, full width, stacked; each is its own tracked link)
 
-| Key | Button label | Link (add UTMs below) |
+| Key | Button label | Opens (existing DR blog post) |
 |---|---|---|
-| `[poll_1]` | Showing Up in Google and AI Answers | `/newsletter-vote?topic=search-ai` |
-| `[poll_2]` | Getting More Good Reviews | `/newsletter-vote?topic=reviews` |
-| `[poll_3]` | Turning Website Visits Into Calls | `/newsletter-vote?topic=website` |
-| `[poll_4]` | Ads That Pay for Themselves | `/newsletter-vote?topic=ads` |
+| `[poll_1]` | Showing Up in Google and AI Answers | `/post/seo-aeo-and-geo-why-search-optimization-still-runs-through-seo` |
+| `[poll_2]` | Getting More Good Reviews | `/post/how-to-turn-negative-reviews-into-a-reputation-management-opportunity` |
+| `[poll_3]` | Turning Website Visits Into Calls | `/post/the-connection-between-website-development-and-ai-search-rankings` |
+| `[poll_4]` | Ads That Pay for Themselves | `/post/how-google-ads-drive-real-business-growth-through-conversions` |
+
+Each vote takes the reader straight to DR's own article on the topic they picked, so the vote is also their first visit to the website.
 
 **`[bts_card]` IMG** + **`[bts_line]` TXT**
 Artwork: real photo of the 2027 newsletter owner at their desk, "Behind the Screens" orange pointer label.
@@ -105,7 +107,7 @@ Alt text: `[Name] from the Digital Resource team`
 > **Prefer a Quick Chat Instead?**
 > If you'd rather we check how your business shows up on Google and in AI answers, book a free 30-minute call. You'll leave with a short list of what to fix first.
 >
-> [Book a free 30-minute strategy call →](/contact)
+> [Book a free 30-minute strategy call →](/contact-us)
 
 **`[signoff]` TXT**
 > Here's to being found in 2027,
@@ -115,18 +117,20 @@ Alt text: `[Name] from the Digital Resource team`
 
 ## Links and UTMs
 
-Base: `https://www.yourdigitalresource.com` (confirm each path exists before build).
+Base: `https://www.yourdigitalresource.com`. Every link below is an existing DR page; nothing new needs building. Open each one the week before send to confirm it still loads.
 Every link gets: `utm_source=hubspot&utm_medium=email&utm_campaign=ats-2027-01&utm_content=<key>`
 
 | Key | URL path | utm_content |
 |---|---|---|
-| `[poll_1]` | `/newsletter-vote?topic=search-ai` | `poll-search-ai` |
-| `[poll_2]` | `/newsletter-vote?topic=reviews` | `poll-reviews` |
-| `[poll_3]` | `/newsletter-vote?topic=website` | `poll-website` |
-| `[poll_4]` | `/newsletter-vote?topic=ads` | `poll-ads` |
-| `[cta_band]` | `/contact` | `cta-strategy-call` |
+| `[poll_1]` | `/post/seo-aeo-and-geo-why-search-optimization-still-runs-through-seo` | `poll-search-ai` |
+| `[poll_2]` | `/post/how-to-turn-negative-reviews-into-a-reputation-management-opportunity` | `poll-reviews` |
+| `[poll_3]` | `/post/the-connection-between-website-development-and-ai-search-rankings` | `poll-website` |
+| `[poll_4]` | `/post/how-google-ads-drive-real-business-growth-through-conversions` | `poll-ads` |
+| `[cta_band]` | `/contact-us` | `cta-strategy-call` |
 
-`/newsletter-vote` is one simple thank-you page ("Thanks, your vote is in. Results in February.") with a link to the blog. In HubSpot, build one active list per poll link ("Clicked link in email" = that URL) to count votes and tag interests. This replaces Typeform.
+**Counting votes:** each poll button is a different link, so HubSpot already reports clicks per link. Build one active list per link ("Clicked link in email" = that URL) to tag each contact's interest. This replaces Typeform and needs no thank-you page.
+
+**Franchise version:** swap `[poll_2]` to `/post/franchise-review-management-for-positive-image`.
 
 ## Plain-text version (paste into HubSpot's plain-text tab)
 
@@ -167,7 +171,7 @@ The Digital Resource Team
 - [ ] Subject A/B set in HubSpot, 50/50, winner metric = **click rate**
 - [ ] Preheader set and doesn't repeat the subject
 - [ ] Proof number approved by the client and dated
-- [ ] All links have UTMs and open the right page; poll page exists
+- [ ] All links have UTMs and open the right existing DR page
 - [ ] Every image has alt text; no text-only meaning baked into images
 - [ ] Franchise version has `[tip2]` and proof swapped
 - [ ] DR employees suppressed; seed list receives a test
